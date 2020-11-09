@@ -12,48 +12,100 @@ body {
   line-height: 1.5;
 }
 
-/***** Header *****/
+/***** Header, nav & logo *****/
 
 header {
-  font-family: 'Oswald', sans-serif;
-  display: flex;
-  justify-content: space-between;
+	font-family: 'Oswald', sans-serif;
+	display: flex;
+	justify-content: space-between;
 }
 
 header li {
-  list-style-type: none;
+	list-style-type: none;
 }
-
-header nav a {
-  text-decoration: none;
-  color: #000;
-}
-
-/***** Header - Block Logo *****/
-#logo {
-  display: flex;
-  align-items: center;
-}
-
-#logo p {
-  padding-left: 12px;
-  font-size: 30px;
-  color: #08398a;
-  font-weight: 700;
-}
-
-#logo p span {
-  text-transform: uppercase;
-  color: #086cca;
-  font-size: 18px;
-}
-
-/***** Header - Nav *****/
 
 nav ul {
-  display: flex;
+	display: flex;
 }
 
 nav a {
+	display: block;
+	padding: 64px 35px 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #423e56;
+}
+
+nav a:hover {
+	color: #0896bc;
+}
+
+#logo {
+	display: flex;
+	align-items: center;
+	padding: 25px;
+}
+#logo p {
+	padding-left: 12px;
+	font-size: 1.875rem;
+	color:#08398a;
+	font-weight: 700;
+}
+#logo p span {
+	text-transform: uppercase;
+	font-size: 1.125rem;
+	color:#086cca;
+}
+
+/***** H1 *****/
+
+#block-h1{
+	background-image: url(/html/assets/img/metro-4501839_1920-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 123px 30px 114px 30px;
+}
+
+h1{
+	text-transform: uppercase;
+  font-size: 38px;
+  font-weight: 700;
+	color: #086cca;
+}
+
+#block-h1 > div{
+	background-color: rgba(255,255,255,0.80);
+	padding: 30px;
+	max-width: 800px;
+	text-align: center;
+}
+
+#block-h1 p{
+	font-size:1.125rem;
+}
+
+/***** H2 *****/
+
+#block-h2 {
+  display: flex;
+}
+
+#h2-texte {
+  flex: 2;
+}
+
+#h2-image {
+  flex: 1;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #423e56;
   
+}
+
+#h2-texte p:first-line {
+  font-weight: 700;
 }
