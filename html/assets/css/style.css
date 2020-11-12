@@ -87,15 +87,16 @@ h1{
 
 /***** H2 *****/
 
-#block-h2 {
+#block-h2-quais {
   display: flex;
+  padding: 55px 0 40px 0;
 }
 
-#h2-texte {
+#h2-texte-quais {
   flex: 2;
 }
 
-#h2-image {
+#h2-image-quais {
   flex: 1;
 }
 
@@ -107,9 +108,11 @@ h2 {
   
 }
 
-#h2-texte p:first-line {
+#h2-texte-quais p:first-line {
   font-weight: 700;
 }
+
+/***** FOOTER *****/
 
 footer {
     background-color: #423e56;
