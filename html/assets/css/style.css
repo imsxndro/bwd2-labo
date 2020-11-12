@@ -1,4 +1,4 @@
-/***** STYLE - Announce & Beginning *****/
+/***** STYLE - Announce & Beginning (Style de base) *****/
 
 .container {
   max-width: 1400px;
@@ -14,16 +14,19 @@ body {
 
 /***** Header, nav & logo *****/
 
+/***** HEADER *****/
 header {
 	font-family: 'Oswald', sans-serif;
 	display: flex;
 	justify-content: space-between;
+  align-items: flex-end;
 }
 
 header li {
 	list-style-type: none;
 }
 
+/***** NAV *****/
 nav ul {
 	display: flex;
 }
@@ -31,6 +34,7 @@ nav ul {
 nav a {
 	display: block;
 	padding: 64px 35px 24px;
+  font-weight: 700;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #423e56;
@@ -40,22 +44,24 @@ nav a:hover {
 	color: #0896bc;
 }
 
+/***** LOGO *****/
 #logo {
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	padding: 25px;
 }
-#logo p {
-	padding-left: 12px;
-	font-size: 1.875rem;
-	color:#08398a;
-	font-weight: 700;
-}
-#logo p span {
-	text-transform: uppercase;
-	font-size: 1.125rem;
-	color:#086cca;
-}
+  #logo p {
+	  padding-left: 12px;
+	  font-size: 1.875rem;
+	  color:#08398a;
+	  font-weight: 700;
+    line-height: 0.8;
+  }
+    #logo p span {
+	    text-transform: uppercase;
+	    font-size: 1.125rem;
+	    color:#086cca;
+    }
 
 /***** H1 *****/
 
@@ -116,6 +122,12 @@ h2 {
 
 #h2-texte-quais p:first-line {
   font-weight: 700;
+}
+
+/***** H2-H3 *****/
+
+#block-h2-h3 {
+  background-color: #f2f5f7
 }
 
 /***** FOOTER *****/
