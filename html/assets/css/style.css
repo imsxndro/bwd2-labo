@@ -90,10 +90,16 @@ h1{
 #block-h2-quais {
   display: flex;
   padding: 55px 0 40px 0;
+  max-width: 1250px;
+}
+
+#block-h2-quais h2 {
+  padding: 0 0 25px;
 }
 
 #h2-texte-quais {
   flex: 2;
+  margin: 0 105px 0 0;
 }
 
 #h2-image-quais {
