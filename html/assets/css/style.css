@@ -120,7 +120,7 @@ footer a {
     color: #fff;
     font-weight: 700;
 }
-footer .footerblock p:first-child {
+footer p:first-line {
     font-weight: 700;
     font-size: 1.25rem;
 }
