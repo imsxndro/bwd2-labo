@@ -110,3 +110,20 @@ h2 {
 #h2-texte p:first-line {
   font-weight: 700;
 }
+
+footer {
+    background-color: #423e56;
+    padding-top: 50px;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    font-weight: 700;
+}
+footer .footerblock p:first-child {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+footer > div {
+    display: flex;
+}
