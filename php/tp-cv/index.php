@@ -94,10 +94,12 @@ require "config.php";
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
               <div class="col-sm-8"><?php
+                /* 
                   foreach ($langues as $lang) {
                       echo $lang." ";
                   }
-
+                */
+                echo implode(", ", $langues);
                   //echo implode($langues, ", ");
                   ?></div>
             </div>
