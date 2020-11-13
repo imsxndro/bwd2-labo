@@ -1,5 +1,12 @@
-<title>PHP - Zone de test</title>
-<h1>PHP - Zone de test</h1>
+<h1>QCM</h1>
+
 <?php
-  echo 'Ceci est une zone de test';
+  echo 'Bonjour l\'école est ouverte à 8h00';
+?>
+
+<h2>Tableau :</h2>
+<?php
+  
+for ($i=0; $i<3; $i++) { echo $i; }
+
 ?>
