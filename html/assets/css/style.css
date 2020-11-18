@@ -1,14 +1,92 @@
-/***** STYLE - Announce & Beginning (Style de base) *****/
+/***** STYLE - Announce & Beginning (Style de base - Mise en page) *****/
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
+/****** Elements de mise en page ****/
+
+.bloc-infos-pratiques, .bloc-contact {
+  text-align: center;
+}
+
+.bloc-texte-principal {
+  grid-column-start: 2;
+}
+
+.block-image-quais {
+  grid-column-start: 9;
+}
+
 .grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 26px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 26px;
+}
+
+.grid img {
+  width: 100%
+}
+
+.grid-span-4 {
+    grid-column-end: span 4;
+}
+.grid-span-6 {
+    grid-column-end: span 6;
+}
+.grid-span-8 {
+    grid-column-end: span 8;
+}
+@media screen and (max-width: 600px) {    
+    .grid-span-4-xs {
+        grid-column-end: span 4;
+    }
+    .grid-span-6-xs {
+        grid-column-end: span 6;
+    }
+    .grid-span-8-xs {
+        grid-column-end: span 8;
+    }
+}
+
+@media screen and (max-width: 450px) {    
+    .grid-span-4-xxs {
+        grid-column-end: span 4;
+    }
+    .grid-span-6-xxs {
+        grid-column-end: span 6;
+    }
+    .grid-span-8-xxs {
+        grid-column-end: span 8;
+    }
+    .grid-span-12-xxs {
+        grid-column-end: span 12;
+    }
+}
+/** grid column start */
+.grid-col-st-4 {
+    grid-column-start: 4;
+}
+
+@media screen and (max-width: 600px) {   
+    .grid-col-st-3-xs {
+        grid-column-start: 3;
+    }   
+    .grid-col-st-4-xs {
+        grid-column-start: 4;
+    }
+}
+@media screen and (max-width: 450px) {   
+    .grid-col-st-1-xxs {
+        grid-column-start: 1;
+    }   
+    .grid-col-st-3-xxs {
+        grid-column-start: 3;
+    }   
+    .grid-col-st-4-xxs {
+        grid-column-start: 4;
+    }
 }
 
 body {
@@ -119,39 +197,22 @@ h1{
 
 /***** H2 *****/
 
-#block-h2-quais {
-  padding: 55px 0 40px 0;
-  max-width: 1250px;
-}
-
-#block-h2-quais h2 {
-  padding: 0 0 25px;
-}
-
-#h2-texte-quais {
-  grid-column: 2 / span 7;
-}
-
-#h2-image-quais {
-  grid-column: auto / span 4;
-}
-
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: #423e56;
-  
+  padding: 0 0 25px;
 }
 
-#h2-texte-quais p:first-line {
+/***** H3 *****/
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
   font-weight: 700;
-}
-
-/***** H2-H3 *****/
-
-#block-h2-h3 {
-  background-color: #f2f5f7
+  color: #423e56;
+  padding: 0 0 25px;
 }
 
 /***** FOOTER *****/
