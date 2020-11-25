@@ -10,5 +10,17 @@ $eleves = array(
 function getStudents($eleves) {
   return $eleves;
 }
-var_dump (getStudents($eleves));
+
+$eleves = getStudents($eleves);
+
+echo '<pre>'.var_export($eleves, true).'</pre>';
+echo '<br>saut de ligne';
+
+function getStudentById($eleves, $id) {
+  return $eleves[$id];
+}
+
+$eleve = getStudentById($eleves, 1);
+echo '<pre>'.var_export($eleve, true).'</pre>';
+
 ?>
